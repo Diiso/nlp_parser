@@ -23,19 +23,3 @@ for i, prod in enumerate(grammar.productions()):
         # if production.is_lexical():
             # print(production.lhs())
             # print(production.rhs()[0])
-
-# print(productions)
-# import numpy as np
-# tags = np.random.randint(1,5,100)
-#
-# # a = {'Token':[Tag,proba]}
-#
-# a = {(1,'bite'):23,(12,'Sure'):15}
-#
-# print(a)
-# key1 = 1
-# key2 = 'bite'
-# if (key1,key2) in a:
-#     print('OUI')
-# else:
-#     print('NON')
